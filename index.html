@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.4.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>fill out the form below</h1>
+      <form id="quiz">
+        <label for="question1">What is your favorite food?</label>
+        <input id="food" type="text" class="form-control" placeholder="Favorite Food">
+        <br>
+        <label for="question2">Who are your favorite people?</label>
+        <input id="people" type="text" class="form-control" placeholder="Favorite People">
+        <br>
+        <label for="question3">What's your favorite place?</label>
+        <input id="place" type="text" class="form-control" placeholder="Favorite Place">
+        <br>
+        <label for="question4">What's your favorite hobby?</label>
+        <input id="hobby" type="text" class="form-control" placeholder="Favorite Hobby">
+        <br>
+        <label for="question5">What's your favorite type of music?</label>
+        <input id="music" type="text" class="form-control" placeholder="Favorite Music">
+        <br>
+
+        <label for="question6">What's your least favorite snack?</label>
+        <input id="snack" type="text" class="form-control" placeholder="Least Favorite Snack">
+        <label for="question7">What's your least favorite type of music?</label>
+        <input id="badmusic" type="text" class="form-control" placeholder="Least Favorite Music">
+        <button type="btn" name="button">Submit</button>
+      </form>
+    </div>
+
+    <div id="results">
+      <p>your favorite food is <span id="food-answer"></span> your favorite people are <span id="people-answer"></span> your favorite place is <span id="place-answer"></span> your favorite hobby is <span id="hobby-answer"></span> and your favorite music is <span id="music-answer"></span>.</p>
+      <p>You're favorites might have been <span id="originalArray"></span>, but you really don't like <span id="dislikes"></span></p>
+    </div>
+</body>
+</html>
